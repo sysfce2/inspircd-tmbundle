@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>crgcbj@fnorehx.pbz</string>
+	<key>contactName</key>
+	<string>Peter Powell</string>
+	<key>description</key>
+	<string>Syntax highlighting for the various InspIRCd file formats.</string>
+	<key>name</key>
+	<string>InspIRCd</string>
+	<key>uuid</key>
+	<string>E58E798F-CC87-4EBE-A9F3-E03E993CA9E4</string>
+</dict>
+</plist>
