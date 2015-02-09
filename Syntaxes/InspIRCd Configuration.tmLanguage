@@ -70,7 +70,7 @@
 		<key>key</key>
 		<dict>
 			<key>begin</key>
-			<string>\s([A-Za-z0-9-_]+)\s*=\s*(")</string>
+			<string>(?:^|\s)([A-Za-z0-9-_]+)\s*=\s*(")</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
