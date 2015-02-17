@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>motd.txt</string>
+		<string>motd.txt.example</string>
+		<string>opermotd.txt</string>
+		<string>opermotd.txt.example</string>
+		<string>rules.txt</string>
+		<string>rules.txt.example</string>
+	</array>
+	<key>name</key>
+	<string>InspIRCd MOTD</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#escape</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>escape</key>
+		<dict>
+			<key>match</key>
+			<string>\\(?:002|003|017|037|[bcux])</string>
+			<key>name</key>
+			<string>constant.character.escape.inspircd-motd</string>
+		</dict>
+	</dict>
+	<key>scopeName</key>
+	<string>source.inspircd-motd</string>
+	<key>uuid</key>
+	<string>AD9FBC6F-D3E6-4F03-972C-5B96B6998262</string>
+</dict>
+</plist>
