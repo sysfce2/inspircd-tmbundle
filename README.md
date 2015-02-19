@@ -19,7 +19,6 @@ git clone git://github.com/SaberUK/inspircd-tmbundle.git InspIRCd.tmbundle
   - Automatically detect the configuration format.
   - Escape codes (`<config format="compat">`).
   - XML entities (`<config format="xml">`).
-- Implement a highlighter for MOTD escape codes.
 
 ### License
 
