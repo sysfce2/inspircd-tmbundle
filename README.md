@@ -8,9 +8,10 @@ This bundle implements syntax highlighting for various InspIRCd formats.
 
 #### TextMate 2
 
-```
-cd ~/Library/Application\ Support/Avian/Bundles
-git clone git://github.com/SaberUK/inspircd-tmbundle.git InspIRCd.tmbundle
+```sh
+mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+cd ~/Library/Application\ Support/TextMate/Bundles
+git clone https://github.com/inspircd/inspircd-tmbundle.git InspIRCd.tmbundle
 ```
 
 ### To Do
