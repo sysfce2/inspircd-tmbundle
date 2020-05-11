@@ -6,6 +6,16 @@ This bundle implements syntax highlighting for various InspIRCd formats.
 
 ### Installation
 
+#### Sublime Text
+
+Assuming that CONFIGDIR is set to the appropriate directory for your platform:
+
+```sh
+mkdir -p ${CONFIGDIR}/Packages/User
+cd ${CONFIGDIR}/Packages/User
+git clone https://github.com/inspircd/inspircd-tmbundle.git InspIRCd.tmbundle
+```
+
 #### TextMate 2
 
 ```sh
