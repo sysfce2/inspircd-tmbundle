@@ -8,8 +8,6 @@
 		<string>motd.txt.example</string>
 		<string>opermotd.txt</string>
 		<string>opermotd.txt.example</string>
-		<string>rules.txt</string>
-		<string>rules.txt.example</string>
 	</array>
 	<key>name</key>
 	<string>InspIRCd MOTD</string>
@@ -25,7 +23,7 @@
 		<key>escape</key>
 		<dict>
 			<key>match</key>
-			<string>\\(?:002|003|017|037|[bcimrsux])</string>
+			<string>\\[bcimrsux]</string>
 			<key>name</key>
 			<string>constant.character.escape.inspircd-motd</string>
 		</dict>
