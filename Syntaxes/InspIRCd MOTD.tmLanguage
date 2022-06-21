@@ -23,7 +23,7 @@
 		<key>escape</key>
 		<dict>
 			<key>match</key>
-			<string>\\[bcimrsux]</string>
+			<string>\\[bchimrsux]</string>
 			<key>name</key>
 			<string>constant.character.escape.inspircd-motd</string>
 		</dict>
