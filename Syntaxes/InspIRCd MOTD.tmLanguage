@@ -5,9 +5,9 @@
 	<key>fileTypes</key>
 	<array>
 		<string>motd.txt</string>
-		<string>motd.txt.example</string>
+		<string>motd.example.txt</string>
 		<string>opermotd.txt</string>
-		<string>opermotd.txt.example</string>
+		<string>opermotd.example.txt</string>
 	</array>
 	<key>name</key>
 	<string>InspIRCd MOTD</string>
